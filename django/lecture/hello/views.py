@@ -13,4 +13,4 @@ def sarah(request):
     return HttpResponse("Hello, Sarah!")
 
 def greet(request, name):
-    return HttpResponse(f"Hello, {name}!")
+    return HttpResponse(f"Hello, {name.capitalize()}!")
